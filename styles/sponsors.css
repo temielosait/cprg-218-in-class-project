@@ -1,0 +1,24 @@
+.sponsors {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.sponsors-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+.sponsor-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.sponsor-card img {
+  max-width: 100%;
+  height: auto;
+}

@@ -1,0 +1,29 @@
+.speakers {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.speakers-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.speaker-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+}
+
+.speaker-card img {
+  width: 100%;
+  border-radius: 40%;
+}
+
+.speaker-card h3,
+.speaker-card p {
+  margin: 10px 0;
+}

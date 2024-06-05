@@ -1,0 +1,25 @@
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+}
+
+.social-media {
+  display: flex;
+  gap: 10px;
+}
+
+.social-media img {
+  width: 24px;
+  height: 24px;
+}
+
+.footer-info {
+  text-align: right;
+}

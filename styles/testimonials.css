@@ -1,0 +1,33 @@
+.testimonials {
+  padding: 50px 20px;
+  text-align: center;
+  background: url('/images/hero.jpg') no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.testimonial-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+}
+
+.testimonial-card img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.testimonial-card p {
+  margin: 10px 0;
+}
